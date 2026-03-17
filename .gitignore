@@ -1,0 +1,20 @@
+# CDK
+iac/node_modules/
+iac/cdk.out/
+iac/*.js
+iac/*.d.ts
+!iac/jest.config.js
+
+# Rails
+my_api/.bundle/
+my_api/log/
+my_api/tmp/
+my_api/storage/
+my_api/.env
+my_api/config/master.key
+my_api/config/credentials.yml.enc
+
+# General
+.DS_Store
+*.env
+my_api/.kamal/secrets
